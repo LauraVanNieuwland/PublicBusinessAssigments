@@ -1,0 +1,38 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-navbar img {
+  width: 150px;
+}
+
+.nav-menu {
+  margin: 0 15px 0 0;
+}
+
+.nav-link {
+  font-size: 30px;
+  margin: 0 0 0 15px;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-weight: 400;
+
+  &:hover {
+    color: $yellow1;
+  }
+}
+
+// .navbar-lewagon {
+//   justify-content: space-between;
+//   background: white;
+// }
+
+// .navbar-lewagon .navbar-collapse {
+//   flex-grow: 0;
+// }
+
+// .navbar-lewagon .navbar-brand img {
+//   width: 40px;
+// }

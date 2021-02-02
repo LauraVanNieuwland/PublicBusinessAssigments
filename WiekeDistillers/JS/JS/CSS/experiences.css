@@ -1,0 +1,154 @@
+/* General*/
+
+.experience-main-container {
+  display: block;
+  margin: 0px auto;
+  background: #1e1e1e;
+  width: 100%;
+  transition: padding 0.5s;
+} 
+
+.hr-experience {
+  background-color:#bda14f ;
+}
+
+/* Cards */
+
+.white-background-experiences {
+  background-color: rgba(239,239,239,1); 
+  size: 100%;
+}
+
+.dark-background-experience {
+  color: #efefef;
+}
+
+.experience-card .content {
+  display: flex;
+}
+
+.experience-card {
+  width: 65%;
+  margin: auto;
+}
+
+/* Fonts */
+
+.experience-card .titel h1 {
+  font-style: italic;
+  text-align: center;
+}
+
+.white-background-experiences .experience-card h1 {
+  color: black;
+}
+
+.white-background-experiences .experience-card p {
+  color: black;
+}
+
+.experience-card  .content p {
+  size: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+/* Images */
+
+.icon-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+}
+
+.images-experience {
+  height: 300px;
+  border-radius: 2px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: 2px white solid;
+  margin: 18px;
+}
+
+.images-experience:hover {
+  transform: scale(1.5);
+  margin: 50px;
+
+
+}
+
+/* banners */
+
+.banner-experience-page {
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  height: 268px;
+}
+
+.banner-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/mouten.jpg);
+}
+
+.banner-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/harvest_dark.jpg);
+}
+
+.banner-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/malt.jpg);
+}
+
+.banner-4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/distillation.jpg);
+}
+
+.banner-5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/barrels.jpg);
+}
+
+/* Responsive Design */
+
+/* Tablad */
+/* Ipad */
+@media only screen and (max-width: 1160px) {
+  .experience-card .content {
+    display: block;
+    text-align: center;
+  }
+
+  .experience-card .content p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: -webkit-center;
+  }
+
+  .images-experience {
+    height: 100px;
+  }
+
+}
+
+
+
+
+/* Phone */
+
+@media only screen and (max-width: 767px) {
+  .experience-card .content {
+    display: block;
+    text-align: center;
+  }
+
+  .experience-card .content p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: -webkit-center;
+  }
+
+  .images-experience {
+    height: 100px;
+  }
+
+}
+  

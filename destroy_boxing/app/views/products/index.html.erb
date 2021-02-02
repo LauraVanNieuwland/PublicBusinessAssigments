@@ -1,0 +1,7 @@
+<h1>Products INDEX</h1>
+<ul>
+  <% @products.each do |product| %>
+    <li><%= product.title %></li>
+    <td><%= link_to 'Bekijk product', user_product_path(:user_id, product) %></td>
+  <% end %>
+</ul>

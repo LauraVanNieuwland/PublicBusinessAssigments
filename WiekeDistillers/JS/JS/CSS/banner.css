@@ -1,0 +1,35 @@
+.banner-homepage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/whisky_poor_guy.jpg);
+  height: 468px;
+  /* width: 100%; */
+  background-position: center;
+  background-size: cover;
+  padding: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: ;
+}
+
+.banner-homepage .right-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-homepage .right-content h3 {
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+}
+
+
+
+
+/* Experiences */
+
+.banner-experiences {
+  background-image: url(../images/whisky_botle.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  height: 268px;
+}

@@ -1,0 +1,51 @@
+<footer>
+<div class="yellow-bar">
+</div>
+
+<div class="footer-container">
+  <%= image_tag 'logo_destroy_black_gold_small.jpeg', class: "logo-footer" %>
+  <div class="div-top">
+    
+    <div class="div">
+      
+      <h3>Destroy Boxing B.V.</h3>      
+      <p>Waaldijk 28</p>
+      <p>4214 LB Vuren </p>
+      <p>KVK 73499951</p>
+      <p>BTW 73499951 </p>
+      <p>Bank NL38 RABO 0336 2353 21</p>
+      <a href="tel:+31624673673 "><h5> tel: +31 (0)6 24 67 36 73 </h5> </a>
+      
+      <%= mail_to "info@destroy-boxing.com", "info@destroy-boxing.com", class: "mail-to-footer" %>
+
+    </div>
+    <div class="div">
+      <h3>Sitemap</h3>
+      <p><%= link_to "Home", root_path, class: "footer-link" %></p>
+      <p><%= link_to "About", about_path, class: "footer-link" %></p>
+      <p><%= link_to "Producten", products_path, class: "footer-link" %></p>
+      <p><%= link_to "Contact", contact_path, class: "footer-link" %></p>
+      <p><%= link_to "Login", new_user_session_path, class: "" %></p>
+      <p><%= link_to "Log out", destroy_user_session_path, method: :delete, class: "" %></p>
+      <p><%= link_to "Kladblok", kladblok_path, class: "" %></p>
+    </div>
+    <div class="div">
+      <h3>Korting bij grote afname!</h3>
+      <p> Neem vrijblijven contact op en vraag naar een offerte</p>
+      <button><a href="contact">Contact Me</a></button>
+    
+    </div>
+  </div>
+  <div class="div-bottom">
+    <a href="http://www.ljm-webdevelopment.nl/" class="copyright"><i class="far fa-copyright"></i> <%= Time.zone.now.year %> www.ljm-webdevelopment.nl</i></a>
+    <div class="icons-footer">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>  
+    
+  </div>
+
+</div>
+
+</footer>

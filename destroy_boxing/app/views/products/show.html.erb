@@ -1,0 +1,9 @@
+<h1>SHOW PAGE</h1>
+<%= link_to "Terug", user_products_path(:user_id) %>
+<h2><%= @product.title %></h2>
+<p><%= @product.description %></p>
+<p><%= @product.price %></p>
+
+<%= cl_image_tag (@product.image.key), class: "card-header-image" %>
+
+

@@ -1,0 +1,9 @@
+<div id="main-container"> 
+  <h1>Products Bezoekpagina</h1>
+  <ul>
+    <% @products.each do |product| %>
+      <li><%= product.title %></li>
+      <%= render "card", product: product %>
+    <% end %>
+  </ul>
+</div>

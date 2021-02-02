@@ -1,0 +1,122 @@
+/* General*/
+.banner-contactpage {
+  background-image: url(../images/whisky_glasses.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  height: auto;
+}
+
+/* Containers */
+
+.container-contact {
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-block {
+  display: grid;
+  grid-template-columns: minmax(100px, 400px) minmax(100px, 400px);
+}
+
+.block {
+  background-color: rgba(225, 224, 225, 0.9);
+  margin: 0px 10px 20px 0px;
+  padding: 20px;
+  border-radius: 3px;
+}
+/* Fonts */
+.container-contact h1 {
+  color: #bda14f;
+  text-shadow: 2px 3px 3px #5C4F27;;
+}
+
+.contact-block h5 {
+  /* color: #E1E0E1; */
+  color: black;
+}
+
+.contact-block p {
+  /* color: #E1E0E1; */
+  color: black;
+  font-size: 16px;
+  /* text-align: justify; */
+}
+
+.contact-block .block .social-media .icons li a {
+  color: black;
+}
+
+.social-media .icons li a .fa-google, .social-media .icons li a .fa-facebook-f, .social-media .icons li a .fa-instagram, .social-media .icons li a .fa-twitter {
+  color: black;
+}
+
+.fa-google, .fa-twitter, .fa-facebook-f, .fa-instagram {
+  color:#E1E0E1;
+  text-decoration: none;
+}
+/* Map */
+
+.map  {
+  margin: 0px 5px 20px 5px;
+}
+iframe {
+  /* width: 100%; */
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 3px;
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+  margin: 0px 10px 20px 0px;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 767px) {
+
+  .contact-block {
+    display: block;
+    -webkit-transform:  rotate(180deg);
+    transform:  rotate(180deg);
+  }
+
+  .container-contact h1 {
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  .banner-contactpage {
+    padding: 1px;
+  }
+
+  .block {
+    margin: 10px 5px 10px 5px;
+    padding: 5px;
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+
+  .container-contact {
+    padding: 0px;
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  iframe {
+    width: 100%;
+    margin: 0px 10px 20px 0px;
+  }
+
+  .map  {
+    margin: 0px;
+  }
+
+  
+
+}
+

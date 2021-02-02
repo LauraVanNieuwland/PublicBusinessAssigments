@@ -1,0 +1,50 @@
+.yellow-bar {
+  width: auto;
+  height: 80px;
+  background-color: $yellow1;
+}
+
+.footer-container {
+  padding: 60px;
+  line-height: 1;
+}
+
+.footer-container .div-top {
+  display: flex;
+  justify-content: space-between;
+  // align-items: center;
+}
+
+.logo-footer {
+  width: 150px;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+footer {
+  a {
+    text-decoration: none;
+  }
+}
+
+.mail-to-footer {
+  color: $yellow1;
+  letter-spacing: 3px;
+}
+
+.footer-container .div-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright {
+  color: white;
+  font-size: 10px;
+}
+
+.icons-footer .fab {
+  font-size: 25px;
+  margin: 0 0 0 100px;
+}

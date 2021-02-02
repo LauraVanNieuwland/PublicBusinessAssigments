@@ -1,0 +1,19 @@
+<h1>Voeg nieuwe producten toe</h1>
+
+<%= form_for [:user, @product] do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.label :description %>
+  <%= f.text_field :description %>
+  <%= f.label :price %>
+  <%= f.number_field :price %>
+  <%= f.submit %>
+<% end %>
+
+<%= simple_form_for [:user, @product] do |f| %>
+  <%= f.input :title, label: "Title:" %>
+  <%= f.input :description, label: "Description:" %>
+  <%= f.input :price, label: "price:" %>
+  <%= f.input :image, as: :file, label: "Image:" %>
+  <%= f.submit "Submit", class: "btn btn-outline-light" %>
+<% end %>
