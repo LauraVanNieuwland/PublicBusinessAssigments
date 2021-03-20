@@ -31,7 +31,7 @@ class FlipDown {
     this.now = this._getTime();
 
     // UTS to count down to
-    this.epoch = new Date('2024.02.21').getTime() / 1000;
+    this.epoch = new Date('2024-02-21').getTime() / 1000;
 
 
     // UTS passed to FlipDown is in the past
