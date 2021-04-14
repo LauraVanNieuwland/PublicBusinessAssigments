@@ -272,4 +272,11 @@ ul.icons li a i {
     bottom: 35px;
     right: 35px;
   }
+
+  .flipdown .rotor, .flipdown .rotor-leaf, .flipdown .rotor-leaf-front, .flipdown .rotor-leaf-rear, .flipdown .rotor-top, .flipdown .rotor-bottom, .flipdown .rotor:after {
+    width: 23px;
+  }
+
+
+
 }

@@ -1,0 +1,22 @@
+/*
+Theme Name: Evidensia marktplaats
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.manage_stock .wcfm_title .wcfm_ele .checkbox_title simple .variable .non-job_package .non-resume_package .non-auction .non-redq_rental .non-appointment .non-accommodation-booking .non-pw-gift-card {
+	visibility: hidden;
+}
+
+#manage_stock {
+   visibility: hidden;
+ }
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
